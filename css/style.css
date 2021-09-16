@@ -18,6 +18,7 @@ nav > a{
     font-size: 1.5em;
 }
 
+
 #main-nav-container{
     display: flex;
     justify-content: center;
@@ -44,6 +45,14 @@ nav > a{
     text-align: center;
     background-color: white;
     opacity: 0.7;
+    width: 100%;
+    display: block;
+}
+
+.main-header > img{
+    height: 20vh;
+    width: auto;
+    grid-column: 1;
 }
 /*Text sections whith headings and images*/
 .main-smaller-header{
@@ -79,8 +88,7 @@ nav > a{
 #booking-main{
     width: 60%;
     margin: auto;
-    background-color: white;
-    opacity: 0.9;
+    background-color: rgba(255, 255, 255, 0.7);
     text-align: center;
 }
 
@@ -91,7 +99,7 @@ nav > a{
 #booking-main > form{
     display: flex;
     flex-direction: column;
-
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 form > fieldset{
@@ -131,11 +139,21 @@ select > option:hover{
     flex-direction: row;
     justify-content: center;
     align-content: space-between;
-    background-color: white;
-    opacity: 0.7;
+    align-items: space-between;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.image{
+    width: 30%;
+    margin: 1em;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 figure > img{
-    width: 30%;
+    width: 100%;
     height: auto;
+}
+
+figure > figcaption{
+    line-height: 1.5em;
 }
