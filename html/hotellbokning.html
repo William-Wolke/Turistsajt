@@ -19,7 +19,7 @@
     </nav>
     <main id="booking-main">
         <h1>Boka hotell</h1>
-        <form action="index.html" method="post">
+        <form action="../index.html" method="post">
             <fieldset>
                 <legend>Personlig information</legend>
                 <label for="fname">Förnamn:</label>
@@ -39,7 +39,7 @@
                 <label for="fromdate">Från:</label>
                 <input type="date" id="fromdate" name="booking" value="fromdate" min="2020-01-01" max="2022-12-31">
                 <label for="todate">Till:</label>
-                <input type="date" id="todate" name="booking" value="todate">
+                <input type="date" id="todate" name="booking" value="todate" min="2020-01-01" max="2022-12-31">
                 <label for=""></label>
             </fieldset>
             <input type="submit" id="booking-button" value="Skicka">
